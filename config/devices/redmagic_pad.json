@@ -1,0 +1,18 @@
+{
+    "device_name": "Red Magic Tablet",
+    "device_code": "redmagic_pad",
+    "android_min": 14,
+    "android_target": 16,
+    "soc": "Snapdragon (High-End)",
+    "partitions": {
+        "dynamic_partitions": true,
+        "virtual_ab": true,
+        "system_fs": "erofs",
+        "data_fs": "f2fs"
+    },
+    "requirements": {
+        "battery_min_percent": 80,
+        "storage_free_gb": 10,
+        "bootloader_unlocked": true
+    }
+}

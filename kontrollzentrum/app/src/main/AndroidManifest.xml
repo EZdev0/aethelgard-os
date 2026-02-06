@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="os.aethelgard.kontrollzentrum">
+    <application
+        android:allowBackup="false"
+        android:label="Kontrollzentrum"
+        android:supportsRtl="true" />
+</manifest>
