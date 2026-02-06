@@ -44,9 +44,3 @@ cd kontrollzentrum
 
 Geräteprofile liegen unter `config/devices/` und definieren Mindestvoraussetzungen,
 Partitionstypen und Ziel-Android-Versionen.
-
-## Modding-Workflow (Minecraft)
-
-Für Minecraft-Modding (z. B. Tooling, Skripte oder CI-Helper) ist der Ordner `tools/`
-vorgesehen. Dort können später individuelle Build-Skripte oder Dev-Utilities ergänzt werden,
-ohne die Systemkomponenten zu vermischen.
