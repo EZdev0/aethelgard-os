@@ -1,0 +1,18 @@
+{
+    "device_name": "<Gerätename>",
+    "device_code": "<device_code>",
+    "android_min": 10,
+    "android_target": 16,
+    "soc": "<SoC>",
+    "partitions": {
+        "dynamic_partitions": true,
+        "virtual_ab": true,
+        "system_fs": "erofs",
+        "data_fs": "ext4"
+    },
+    "requirements": {
+        "battery_min_percent": 80,
+        "storage_free_gb": 10,
+        "bootloader_unlocked": true
+    }
+}
